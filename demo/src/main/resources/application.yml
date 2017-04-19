@@ -1,0 +1,17 @@
+server:
+  port: 8081
+  context-path: /hxj
+user:
+  age: 20
+  name: hxj
+  introduce: handsome boy
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bookstore
+    username: root
+    password: 123456
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
